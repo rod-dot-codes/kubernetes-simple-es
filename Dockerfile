@@ -1,4 +1,4 @@
-FROM "gcr.io/google_containers/elasticsearch:v5.4.0-1"
+FROM gcr.io/google_containers/elasticsearch:v5.4.0-1
 
 COPY elasticsearch.yml /elasticsearch/config/elasticsearch.yml
 
